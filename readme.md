@@ -39,3 +39,19 @@ Id  Name                Grades
 * Creo un ciclo e cambio il valore della variabile1. Il nuovo valore prenderà la posizione dell'oggetto nell'array. 
 * Assegno alla chiave posto occupato il valore della variabile1, in questo modo ad ogni ciclo cambierà il numero del posto occupato in base alla posizione dell'oggetto nell'array.
 * Per concludere stampo il risultato ovvero il contenuto di ogni oggetto.
+
+
+## Problem-solving Snack2
+
+### Step 1 Lista in maiuscolo
+
+* Creo un array1 di oggetti contenenti le info di cui abbiamo bisogno ovvero id, nome, voto degli studenti
+* Creo una nuova array associata a una funzione map per ottenere una lista di solo nomi dell'array1 in maiuscolo
+
+### Step 2 Lista con voto > 70
+
+* Creo una copia dell'array1 con filter per ottenere solo un'array contenente solo gli studenti con un voto > 70.
+
+### Step 2 Lista con voto > 70 e id > 120
+
+* Procedo come nello step2 per ottenere questa volta un'array contenente solo gli studenti con voto > 70 e id >120.
