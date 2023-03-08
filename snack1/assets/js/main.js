@@ -75,7 +75,7 @@ const tables = [
 ]
 
 tables.forEach(element => {
-    tableNum = tables.indexOf(element)
+    tableNum = tables.indexOf(element) + 1
     element.seatReserved = tableNum
     console.log(element)
 })
