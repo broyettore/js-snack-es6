@@ -16,3 +16,7 @@ main {
     background-color: burlywood;
     color: #000;
 }
+
+main p {
+    font-size: 1.4rem;
+}

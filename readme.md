@@ -27,6 +27,21 @@ Id  Name                Grades
 102 Piero della Francesca   50
 120 Francesca da Polenta    84
 
+SNACK 3
+
+Creare un array di oggetti:
+
+Ogni oggetto descriverà una bici da corsa con le seguenti proprietà: nome e peso.
+Stampare in console la bici con peso minore utilizzando destructuring e template literal
+
+SNACK 4
+
+Creare un array di oggetti di squadre di calcio. Ogni squadra avrà diverse proprietà: nome, punti fatti, falli subiti.
+Nome sarà l’unica proprietà da compilare, le altre saranno tutte settate a 0.
+Generare numeri random al posto degli 0 nelle proprietà: Punti fatti e falli subiti.
+Infine usando la destrutturazione creiamo un nuovo array i cui elementi contengono solo nomi e falli subiti e stampiamo tutto in console.
+
+
 ## Problem-solving Snack1
 
 ### Step 1 : Variabili
@@ -55,3 +70,18 @@ Id  Name                Grades
 ### Step 2 Lista con voto > 70 e id > 120
 
 * Procedo come nello step2 per ottenere questa volta un'array contenente solo gli studenti con voto > 70 e id >120.
+
+## Problem-solving Snack3
+
+### Step 1 Le Variabili
+
+* Creo una variabile1 che selezionerà l'elemento html dove stamperò il risultato.
+* Creo un array di oggetti con le informazioni necessarie ovvero nome della bici e peso.
+
+### Step 2 Accedere all'array
+
+* Creo una variabile3 per filtrare l'array.
+* Creo altre due variabile per prendere in una solo il peso delle bici e nell'altra solo il nome delle bici.
+* Creo una condizione per ottenere la bici più leggera e stampo nell'html il risultato indicando nome e peso della bici selezionata.
+
+## Problem-solving Snack4
