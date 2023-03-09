@@ -85,3 +85,16 @@ Infine usando la destrutturazione creiamo un nuovo array i cui elementi contengo
 * Creo una condizione per ottenere la bici più leggera e stampo nell'html il risultato indicando nome e peso della bici selezionata.
 
 ## Problem-solving Snack4
+
+### Step1 
+
+* Creo un funzione per generare un numero random.
+* Creo una variabile1 a cui assegno il risultato della funzione.
+* Creo l'array di oggetti con le info necessarie ovvero nome del team, goal fatti e subiti.
+* Filtro l'array, conservando solo il nome dei team e assegno la variabile1 ai goal subiti e fatti.
+
+### Step 2
+
+* Creo un oggetto con nome dei team e goal subiti.
+* L'oggetto verrà pushato in una nuova array.
+* Creo un ciclo per creare una lista nell'html dove andrò a stampare l'oggetto contenente ogni team e i goal che hanno subito.
