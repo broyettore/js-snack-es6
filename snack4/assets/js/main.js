@@ -5,9 +5,8 @@
  * ***** */
 
 
-function randomNum(num) {
-    const rand = Math.floor((Math.random() * num) + 1)
-    return rand;
+function randomNum(min, max) {
+        return Math.floor(Math.random() * (max - min) ) + min;
 } 
 
 /************ VARIABLES ************ */
@@ -48,8 +47,8 @@ const footballStats = [
 
 const newfootballStats = footballStats.map(element => {
     const {name} = element;
-    element.goalsMade = randGoals;
-    element.goalsTaken = randGoals;
+    element.goalsMade = randomNum(10, 40);
+    element.goalsTaken = randomNum(10, 40);
 
     return {name: name, goalsTaken: element.goalsTaken};
 })
