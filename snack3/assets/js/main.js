@@ -35,15 +35,29 @@ const bici = [
 ]
 
 
-const biciLeggera = bici.filter(element => {
-    const {peso} = element;
-    const {nome} = element;
+if (bici.length === 0) {
+    console.log("Sei a piedi")
+} else {
+    let biciLeggera = bici[0];
 
-    if (peso < 30) {
-        console.log(`la bici più leggera è ${nome} e pesa ${peso} kg`)
-        return result.innerHTML = `la bici più leggera è ${nome} e pesa ${peso} kg`
+    for (let i = 0; i < bici.length; i++) {
+        const biciAttuale = bici[i];
+
+        if (biciAttuale.peso < biciLeggera.peso) {
+            biciLeggera = biciAttuale;
+        }
     }
-})
+        
+        const risultatoBici = bici.filter(({peso}, index, array) => {
+            if(peso === biciLeggera.peso) {
+                return true;
+            }
+        })
+        
+        risultatoBici.forEach(({peso, nome}) => {
+            console.log(`la bici ${nome} è la bici più leggera e pesa ${peso} kg`)
+        });
+}
 
 
 
